@@ -146,10 +146,10 @@ export default function FAQ() {
                 <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "rgba(46,204,142,0.2)", color: "var(--green-accent)" }}>
                   ✦ Still Have Questions?
                 </span>
-                <h2 className="text-white mb-4" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>
+                <h2 className="text-white mb-4 text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>
                   Can't find the answer you're looking for?
                 </h2>
-                <p style={{ color: "rgba(255,255,255,0.75)", lineHeight: 1.7 }}>
+                <p className="text-base" style={{ color: "rgba(255,255,255,0.75)", lineHeight: 1.7 }}>
                   Our team is always on hand to help. Reach out and we'll get back to you within three hours — no jargon, no obligation.
                 </p>
                 <Link href="/contact" className="inline-flex items-center gap-2 mt-8 rounded-full px-8 py-[13px] text-base font-black no-underline border-2 transition-all hover:-translate-y-1" style={{ background: "var(--green-accent)", borderColor: "var(--green-accent)", color: "var(--teal-dark)", fontFamily: "Nunito, sans-serif" }}>
@@ -183,8 +183,8 @@ export default function FAQ() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-14 reveal" ref={(el) => addReveal(el, 10)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Common Questions</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Browse by topic</h2>
-            <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--text-mid)" }}>Use the categories below to find what you need — or scroll through everything at once.</p>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Browse by topic</h2>
+            <p className="mt-4 text-base leading-relaxed" style={{ color: "var(--text-mid)" }}>Use the categories below to find what you need — or scroll through everything at once.</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -222,8 +222,8 @@ export default function FAQ() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-12 reveal" ref={(el) => addReveal(el, 20)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Who We Help</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Accounting for every business type</h2>
-            <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--text-mid)" }}>Whether you're just starting out or scaling up, we have a plan built around your needs.</p>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Accounting for every business type</h2>
+            <p className="mt-4 text-base leading-relaxed" style={{ color: "var(--text-mid)" }}>Whether you're just starting out or scaling up, we have a plan built around your needs.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -258,8 +258,8 @@ export default function FAQ() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-16 reveal" ref={(el) => addReveal(el, 30)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ How We Work</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Up and running in days, not weeks</h2>
-            <p className="mt-3 text-base leading-relaxed" style={{ color: "var(--text-mid)" }}>Switching to Heritage is simple. We manage the entire handover so there's no disruption to your business.</p>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Up and running in days, not weeks</h2>
+            <p className="mt-4 text-base leading-relaxed" style={{ color: "var(--text-mid)" }}>Switching to Heritage is simple. We manage the entire handover so there's no disruption to your business.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
@@ -323,7 +323,7 @@ export default function FAQ() {
         <div className="absolute w-96 h-96 rounded-full pointer-events-none" style={{ background: "rgba(46,204,142,0.15)", top: -150, right: -100 }} />
         <div className="absolute w-64 h-64 rounded-full pointer-events-none" style={{ background: "rgba(46,204,142,0.1)", bottom: -80, left: -60 }} />
         <div className="relative z-10">
-          <h2 className="text-white" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>Ready to Get Started?</h2>
+          <h2 className="text-white text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>Ready to Get Started?</h2>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.75)" }}>
             Let's talk about how Heritage can take the stress out of your finances — book a free, no-obligation consultation today.
           </p>
