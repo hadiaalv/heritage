@@ -48,6 +48,8 @@ export default function Navbar() {
         {[
           { label: "Services", href: "/services" },
           { label: "About", href: "/about" },
+          { label: "Team", href: "/team" },
+          { label: "FAQ", href: "/faq" },
           { label: "Contact", href: "/contact" },
         ].map(({ label, href }) => (
           <li key={label}>
