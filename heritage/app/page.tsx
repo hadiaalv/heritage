@@ -175,7 +175,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-12 reveal" ref={(el) => addReveal(el, 20)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Our Services</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Everything your business needs, under one roof</h2>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Everything your business needs, under one roof</h2>
             <p className="mt-3 text-sm leading-relaxed" style={{ color: "var(--text-mid)" }}>From daily bookkeeping to long-term tax strategy — we handle the numbers so you can focus on growing your business.</p>
           </div>
 
@@ -218,7 +218,7 @@ export default function Home() {
           {/* Left — text */}
           <div className="reveal" ref={(el) => addReveal(el, 40)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-5" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Why Heritage?</span>
-            <h2 className="mb-5" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>
+            <h2 className="text-4xl mb-5" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>
               Bespoke accounting — because one size never fits all
             </h2>
             <p className="text-base leading-relaxed mb-8" style={{ color: "var(--text-mid)" }}>
@@ -294,7 +294,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-12 py-24">
           <div className="text-center max-w-xl mx-auto reveal" ref={(el) => addReveal(el, 0)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Why Choose Heritage?</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>
               We combine decades of experience with modern approaches
             </h2>
           </div>
@@ -334,7 +334,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-12 reveal" ref={(el) => addReveal(el, 50)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Who We Help</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Accounting for every stage of your journey</h2>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Accounting for every stage of your journey</h2>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -359,7 +359,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center max-w-xl mx-auto mb-14 reveal" ref={(el) => addReveal(el, 60)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Client Stories</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Our clients love working with us</h2>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Our clients love working with us</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -430,7 +430,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-14 reveal" ref={(el) => addReveal(el, 80)}>
             <span className="inline-flex items-center gap-2 px-4 py-[6px] rounded-full text-xs font-bold mb-4" style={{ background: "var(--teal-light)", color: "var(--teal-mid)" }}>✦ Common Questions</span>
-            <h2 style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Frequently asked questions</h2>
+            <h2 className="text-4xl" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900, color: "var(--teal-dark)" }}>Frequently asked questions</h2>
           </div>
 
           {[
@@ -459,7 +459,7 @@ export default function Home() {
         <div className="absolute w-64 h-64 rounded-full pointer-events-none" style={{ background: "rgba(46,204,142,0.1)", bottom: -80, left: -60 }} />
 
         <div className="relative z-10">
-          <h2 className="text-white" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>Ready to Start Your Journey?</h2>
+          <h2 className="text-4xl text-white" style={{ fontFamily: "Nunito, sans-serif", fontWeight: 900 }}>Ready to Start Your Journey?</h2>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.75)" }}>
             Contact us today to learn how we can help preserve your heritage and build your future.
           </p>
